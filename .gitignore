@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 *.so
 
-# Environments
+# Virtual Environments
 venv/
 env/
 ENV/
@@ -13,6 +13,10 @@ ENV/
 # Generated trial mutations (auto-regenerated during experiments)
 data/generated_mutations/
 data/samples/generated_mutations/
+
+# Reports and generated documentation (excluded from GitHub)
+reports/
+*.docx
 
 # Temporary files and IDE configs
 .vscode/
