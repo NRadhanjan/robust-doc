@@ -1,0 +1,126 @@
+{
+  "intensities": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "curves_data": {
+    "metadata_mutation": [
+      74.26,
+      74.24,
+      74.24,
+      47.26,
+      47.26,
+      47.26,
+      47.26,
+      83.68,
+      83.7,
+      83.68
+    ],
+    "recompression": [
+      62.94,
+      62.94,
+      62.94,
+      62.94,
+      62.94,
+      62.94,
+      62.94,
+      83.34,
+      83.4,
+      83.4
+    ],
+    "object_reordering": [
+      83.38,
+      83.38,
+      83.38,
+      76.5,
+      76.5,
+      76.52,
+      76.52,
+      67.88,
+      67.88,
+      67.88
+    ],
+    "hardened_model": [
+      78.1804416825005,
+      78.17377501583384,
+      78.18710834916718,
+      74.41510834916718,
+      74.40177501583385,
+      74.39510834916717,
+      74.39510834916717,
+      89.64387149451855,
+      89.72387149451855,
+      89.69053816118522
+    ]
+  },
+  "stability_data": {
+    "file_size": 56.888888888888886,
+    "byte_entropy": 74.66666666666667,
+    "num_pages": 100.0,
+    "num_objects": 54.888888888888886,
+    "num_streams": 55.55555555555556,
+    "num_compressed_streams": 13.777777777777779,
+    "ratio_compressed_streams": 7.555555555555555,
+    "count_javascript": 85.11111111111111,
+    "count_js": 85.11111111111111,
+    "count_openaction": 84.88888888888889,
+    "count_aa": 96.44444444444444,
+    "count_acroform": 96.44444444444444,
+    "count_launch": 96.44444444444444,
+    "count_embedded_files": 95.33333333333334,
+    "count_annot": 100.0,
+    "count_uri": 100.0,
+    "count_richmedia": 100.0,
+    "num_indirect_objects": 54.888888888888886,
+    "num_trailer_entries": 47.55555555555556,
+    "has_xref_stream": 66.66666666666666,
+    "has_objstm": 66.66666666666666,
+    "metadata_length": 76.44444444444444,
+    "has_title": 88.88888888888889,
+    "has_author": 88.88888888888889,
+    "has_creator": 88.88888888888889,
+    "has_producer": 98.0,
+    "has_creation_date": 96.88888888888889,
+    "has_mod_date": 78.44444444444446
+  },
+  "model_comparison": {
+    "Random Forest (Baseline)": {
+      "tested": 150,
+      "retained": 146,
+      "retention_rate": 97.33333333333334,
+      "band": "HIGH ROBUSTNESS"
+    },
+    "Decision Tree": {
+      "tested": 150,
+      "retained": 24,
+      "retention_rate": 16.0,
+      "band": "VULNERABLE"
+    },
+    "SVM (RBF Kernel)": {
+      "tested": 150,
+      "retained": 3,
+      "retention_rate": 2.0,
+      "band": "VULNERABLE"
+    },
+    "Gradient Boosting": {
+      "tested": 150,
+      "retained": 24,
+      "retention_rate": 16.0,
+      "band": "VULNERABLE"
+    },
+    "Hardened Random Forest": {
+      "tested": 150,
+      "retained": 142,
+      "retention_rate": 94.66666666666667,
+      "band": "HIGH ROBUSTNESS"
+    }
+  }
+}

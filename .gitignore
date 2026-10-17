@@ -1,0 +1,22 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+venv/
+env/
+ENV/
+.env
+
+# Generated trial mutations (auto-regenerated during experiments)
+data/generated_mutations/
+data/samples/generated_mutations/
+
+# Temporary files and IDE configs
+.vscode/
+.idea/
+*.tmp
+*.log
+test_*.pdf

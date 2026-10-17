@@ -1,0 +1,39 @@
+ROBUST DOC: FINAL STUDY RESULTS & MEASUREMENT BENCHMARK
+======================================================================
+
+==================================================================
+                   DETECTOR FRAGILITY REPORT                      
+==================================================================
+Model: Baseline Random Forest (100-Sample Benchmark)
+Overall Robustness Score: 90.0/100 -> LOW RISK
+------------------------------------------------------------------
+Detection Retention per Mutation Type:
+  * metadata_mutation       : #######     74.7%
+  * recompression           : #########   98.7%
+  * object_reordering       : #########   96.7%
+------------------------------------------------------------------
+Headline Feature Stability (Top Reliable vs Fragile):
+  [+] High Stability Features:
+      num_pages                 ########## 100.0%
+      count_annot               ########## 100.0%
+      count_uri                 ########## 100.0%
+      count_richmedia           ########## 100.0%
+      has_producer              #########   98.0%
+  [-] Fragile / Volatile Features:
+      num_objects               #####       54.9%
+      num_indirect_objects      #####       54.9%
+      num_trailer_entries       ####        47.6%
+      num_compressed_streams    #           13.8%
+      ratio_compressed_streams               7.6%
+------------------------------------------------------------------
+Verdict: The detector's confidence is heavily influenced by structural & metadata
+formatting. An attacker or natural document processor can degrade detection
+without modifying core malicious triggers.
+==================================================================
+
+MULTI-MODEL ROBUSTNESS BENCHMARK:
+  * Random Forest (Baseline): 97.3% retention (HIGH ROBUSTNESS)
+  * Decision Tree: 16.0% retention (VULNERABLE)
+  * SVM (RBF Kernel): 2.0% retention (VULNERABLE)
+  * Gradient Boosting: 16.0% retention (VULNERABLE)
+  * Hardened Random Forest: 94.7% retention (HIGH ROBUSTNESS)
