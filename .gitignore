@@ -17,6 +17,7 @@ data/samples/generated_mutations/
 # Reports and generated documentation (excluded from GitHub)
 reports/
 *.docx
+*.pptx
 
 # Temporary files and IDE configs
 .vscode/
